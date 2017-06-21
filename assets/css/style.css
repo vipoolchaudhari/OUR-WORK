@@ -13,8 +13,8 @@ h1 > a{
 }
 header > p{
 	padding: 25px 200px;
-	text-align: center;
 	background-color: #42ab9e;
+	text-align: center;
 	color: #fff;
 	font-size: 20px;
 }
@@ -46,14 +46,14 @@ section{
 	opacity:1;
 }
 .hover_center{
-	transition:all .3s ease-in-out;
 	position: absolute;
-	top:43%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	background-color: #fff;
 	padding: 15px;
+	background-color: #fff;
 	display: none;
+	left: 50%;
+	top:43%;
+	transition:all .3s ease-in-out;
+	transform: translate(-50%,-50%);
 }
 .hover_center > a{
 	text-decoration: none;
@@ -62,9 +62,9 @@ section{
 	font-weight: 600;
 }
 span{
-	transition:all .3s ease-in-out;
 	display: none;
 	position: absolute;
+	transition:all .3s ease-in-out;
 	top:59%;
 	left: 50%;
 	transform: translate(-50%,-50%);
@@ -75,6 +75,7 @@ span{
 	height: 270px;
 	width: 328px;
 }
+
 .content{
 	margin: 0px 20px;
 	border-bottom: 5px solid #9da5aa;
