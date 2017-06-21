@@ -1,0 +1,109 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.main_wrapper{
+	margin: 0 auto;
+	width: 850px;
+	padding: 20px 0px;
+}
+header{
+	position: relative;
+}
+h1{
+	display: inline-block;
+}
+#boxilogo_anchor{
+	display: inline-block;
+}
+.subscribe_option{
+	position: absolute;
+	display: inline-block;
+	bottom: 0px;
+	right: 0px;
+	color:#2a2d3c;
+	text-transform: uppercase;
+}
+strong > a{
+	color:#2a2d3c;
+	text-decoration: none;
+}
+main{
+	height: 844px;
+	padding: 30px 0px;
+}
+.main_section{
+	padding: 30px;
+	margin-bottom: 20px;
+	background-color: #445978;
+	color: #f2f9ff;
+}
+h2{
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.main_section > p{
+	padding-bottom: 30px;
+}
+.main_section > p:first-letter{
+	text-transform: capitalize;
+}
+.sub_section{
+	position: relative;
+}
+.sub_message{
+	position: absolute;
+	width: 220px;
+	display: inline-block;
+	padding: 20px;
+	background-color: #87c442;
+	color: #e6ffe1;
+}
+h3{
+	text-transform: uppercase;
+}
+h3 > span{
+	display: block;
+}
+.sub_message > p{
+	padding: 20px 0px;
+}
+.sub_message > p:first-letter{
+	text-transform: capitalize;
+}
+.free_image{
+	position: absolute;
+	right: 0px;
+	top:0px;
+}
+.free_image >img{
+	height: 451px;
+    width: 613px;
+}
+.girlboy_image{
+	position: absolute;
+	top: 270px;
+	left: 0px;
+}
+.girlboy_image > img{
+	width: 221px;
+    height: 180px;
+}
+.socialmedia_icon{
+	list-style-type: none;
+	display:block;
+}
+.socialmedia_icon > li{
+	display: inline-block;
+    margin-right: 20px;
+}
+.socialmedia_icon > li:last-child{
+    margin-right: 0px;
+}
+.socialmedia_icon > li >a >img{
+	width: 194px;
+}
+.socialmedia_icon >li >a{
+	display: inline-block;
+}
